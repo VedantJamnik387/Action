@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Plan</title>
+    <style>
+        body {
+            background-color: #0b1120;
+            color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        .heading {
+            width: 100%;
+            height: 80px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff; 
+            background-color: #1e40af;
+            position: sticky;
+            top: 0;
+            z-index: 1000; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .heading h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 250px; 
+            padding: 20px 10px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .head {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 15px;
+            padding: 15px;
+            transition: box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+
+        .head h2 {
+            color: #ffffff;
+        }
+
+        .head:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            border-color: #475569;
+        }
+
+        .content {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #cbd5e1;
+        }
+
+        .upi {
+            display: inline;
+            font-weight: bold;
+            color: #38bdf8;
+        }
+
+        .online {
+            display: inline;
+            font-weight: bold;
+            color: #f43f5e;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .step {
+            width: 100%;
+            max-width: 200px;
+            margin: 10px auto 0 auto;
+            padding: 12px;
+            font-weight: bold;
+            font-size: 20px;
+            box-sizing: border-box;
+            display: block;
+            text-align: center;
+            background-color: #0284c7;
+            color: #ffffff;
+            border-radius: 8px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        .step:hover {
+            background-color: #0369a1;
+            color: #ffffff;
+        }
+
+        .work {
+            width: 100%;
+            min-height: 35px;
+            background-color: #059669;
+            text-align: center;
+            margin-bottom: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 8px 0;
+        }
+
+        .step8 {
+            min-height: 50px;
+            padding: 12px 20px;
+            margin: 20px auto;
+            max-width: 300px;
+            border: none;
+            border-radius: 9px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 26px;
+            background-color: #10b981;
+            color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .step8:hover {
+            cursor: pointer;
+            background-color: #059669;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Mobile Responsive Adjustments */
+        @media (max-width: 768px) {
+            .heading h1 {
+                font-size: 18px;
+            }
+
+            .work {
+                font-size: 16px;
+            }
+
+            .head h2 {
+                font-size: 20px;
+            }
+
+            .step1 h3 {
+                font-size: 16px;
+            }
+
+            .step {
+                font-size: 16px;
+                padding: 8px;
+            }
+
+            .step8 {
+                font-size: 20px;
+                max-width: 220px;
+            }
+        }
+        .step-color{
+            color: red;
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Action Plan for UPI Fraud & Online Fraud Study</h1>
+    </div>
+    <h2 class="work">Field Visit, Data Collection & Photos</h2>
+    <div class="container">
+        <div class="head">
+            <h2 class="content-head">Create a Questions</h2>
+            <p class="content" style="font-size: 20px;">Create different questions separately for <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span>.</p>
+            <div class="step1">
+                <h3><p class="step-color">Step 1:</p> Create Questions like: One page for <span class="upi">UPI Fraud</span> and one page for <span class="online">Online Fraud</span>.</h3>
+                <a href="step1.html"><p class="step">Step 1 Details</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="head">
+            <h2 class="content-head">Ask the Questions For Different User </h2>
+            <p class="content" style="font-size: 20px;">For Shopkeeper, Bussiness Owners <span class="upi">UPI Fraud</span> For Friends, Parents <span class="online">Online Fraud</span>.</p>
+            <div class="step1">
+                <h3><p class="step-color">Step 2:</p> Ask Questions like:&nbsp;&nbsp; Ask Question of <span class="upi">UPI Fraud</span> to Perticular user And that time write answer parellely.</h3>
+                <a href="step2.html"><p class="step">Step 2 Details</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="head">
+            <h2 class="content-head">Collecting the Data/Responses </h2>
+            <p class="content" style="font-size: 20px;">Question and its Answer write down of <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span>. And Last</p>
+            <p style="font-size: 20px; color: #f1f5f9;"> CLICK PHOTO FOR PROOF</p>
+            <div class="step1">
+                <h3><p class="step-color">Step 3:</p>&nbsp;Heading <span class="upi">UPI Fraud</span> and its Question and Answer Same for <span class="online">Online Fraud</span>.</h3>
+                <a href="step3.html"><p class="step">Step 3 Details</p></a>
+            </div>
+        </div>
+    </div>
+    <h2 class="work">Implementation / Analysis</h2>
+    <div class="container">
+        <div class="head">
+            <h2 class="content-head">Use AI(Artificial Intelligence)</h2>
+            <p class="content" style="font-size: 20px;">Use AI for creating graph of the data for <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span>.</p>
+            <div class="step1">
+                <h3><p class="step-color">Step 4:</p> Using AI Analysis the Data: How much Money From Per User,Shopkeeper form <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span>.</h3>
+                <a href="step4.html"><p class="step">Step 4 Details</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="head">
+            <h2 class="content-head">Find the Solution On It</h2>
+            <p class="content" style="font-size: 20px;">Which Mistake is doing by User and Shopkeeper for that <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span> is Happens.</p>
+            <div class="step1">
+                <h3><p class="step-color">Step 5:</p> The mistake have to written in a separate page which causes <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span> And Think about the solutions on it </h3>
+                <a href="step5.html"><p class="step">Step 5 Details</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="head">
+            <h2 class="content-head">IF This Possible Creating a Software <span style="color: #4ade80;">(Optional)</span></h2>
+            <p class="content" style="font-size: 20px;">Create a Software which aware the Merchants that link or upi id is suspicious I think will decrease the <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span>.</p>
+            <div class="step1">
+                <h3><p class="step-color">Step 6:</p> Using Frontend and Backend Development create <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span> Software.</h3>
+                <a href="step6.html"><p class="step">Step 6 Details</p></a>
+            </div>
+        </div>
+    </div>
+    <h2 class="work">Report Writing & Submission</h2>
+    <div class="container">
+        <div class="head">
+            <h2 class="content-head">Report Writing of UPI and Online Frauds</h2>
+            <p class="content" style="font-size: 20px;">Create a Website use only frontend HTML/CSS/JS to Show our <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span> Study.</p>
+            <div class="step1">
+                <h3><p class="step-color">Step 7:</p> Write a HTML CSS JAVASCRIPT CODE for the Frontend show the <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span>.</h3>
+                <a href="step7.html"><p class="step">Step 7 Details</p></a>
+            </div>
+        </div>
+    </div>
+    <h2 class="work">Final Submission</h2>
+    <div class="container">
+        <div class="head">
+            <h2 class="content-heads">Submission</h2>
+            <p class="content" style="font-size: 20px;"> This is the final Submission of <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span> Study.</p>
+            <div class="step1">
+                <h3><p class="step-color">Step 8:</p> Click ON THE lINK TO THE PROJECT <span class="upi">UPI Fraud</span> and <span class="online">Online Fraud</span>.</h3>
+                <a href="Project.html"><p class="step8">FINAL PROJECT</p></a>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>
