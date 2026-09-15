@@ -10,48 +10,73 @@
             margin: 0;
             padding: 0;
         }
-
         body {
-            background-color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #f8f9fa;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             min-height: 100vh;
-            padding: 20px 10px;
+            padding: 16px;
+            color: #333333;
         }
-
         .main-heading {
             text-align: center;
-            font-weight: bold;
+            font-weight: 700;
             font-style: italic;
-            font-size: 28px;
-            padding: 12px;
+            font-size: 24px;
+            padding: 16px;
             background-color: #ffffff;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.13);
-            margin-bottom: 20px;
-            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            margin-bottom: 24px;
+            border-radius: 12px;
+            color: #111111;
         }
-        .content{
-            margin-left: 20px;
-            line-height: 3.0;
+        .content {
+            background-color: #ffffff;
+            padding: 24px 20px 24px 32px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
         }
-
-        
-
+        ol {
+            font-size: 18px;
+        }
+        li {
+            margin-bottom: 18px;
+            line-height: 1.5;
+            padding-left: 8px;
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+        .imp {
+            color: #dc3545;
+            font-weight: 600;
+        }
+        /* Mobile Optimization */
         @media (max-width: 600px) {
-            .main-heading {
-                font-size: 22px;
+            body {
+                padding: 12px;
             }
-
-           
-        }
-        .imp{
-            color: red;
+            .main-heading {
+                font-size: 20px;
+                padding: 14px;
+                margin-bottom: 16px;
+            }
+            .content {
+                padding: 20px 16px 20px 28px;
+            }
+            ol {
+                font-size: 16px;
+            }
+            li {
+                font-size: 15px;
+                font-weight: bold;
+                margin-bottom: 14px;
+                line-height: 1.45;
+            }
         }
     </style>
 </head>
 <body>
-
     <h1 class="main-heading">Collecting the Data/Responses </h1>
-
     <div class="content">
         <ol start="1" style="font-size: 30px;">
             <li> &nbsp;&nbsp; Collect data in Google Form or Manual Book Pen</li>
@@ -62,6 +87,5 @@
             <li>&nbsp;&nbsp;Complete all Interview just take Photo to Proof</li>
         </ol>
     </div>
-
 </body>
 </html>
